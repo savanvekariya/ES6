@@ -1,4 +1,4 @@
-// Promise
+// Promise and Async Await
 
 let data = [
   { name: 'Bob', profession: 'Software Engineer' },
@@ -30,6 +30,11 @@ const createData = (objValue) => {
   });
 };
 
-createData({ name: 'Alice', profession: 'Tester' })
-  .then(getData)
-  .catch((err) => console.log(err));
+// createData({ name: 'Alice', profession: 'Tester' })
+//   .then(getData)
+//   .catch((err) => console.log(err));
+
+async function start() {
+  await createData({ name: 'Alice', profession: 'Tester' });
+  getData();
+}
