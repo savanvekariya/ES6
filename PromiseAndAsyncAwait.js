@@ -30,10 +30,13 @@ const createData = (objValue) => {
   });
 };
 
+// Promise
+
 // createData({ name: 'Alice', profession: 'Tester' })
 //   .then(getData)
 //   .catch((err) => console.log(err));
 
+// Async Await
 async function start() {
   await createData({ name: 'Alice', profession: 'Tester' });
   getData();
