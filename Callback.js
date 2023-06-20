@@ -15,9 +15,9 @@ const getData = () => {
   }, 1000);
 };
 
-const createData = (data, callback) => {
+const createData = (objValue, callback) => {
   setTimeout(() => {
-    data.push(data);
+    data.push(objValue);
     callback();
   }, 2000);
 };
