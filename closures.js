@@ -1,3 +1,6 @@
+//closure - Closure is the form of lexical scoping used to preserve the variables from outer scope of the function in inner scope of function
+//Lexical Scoping - It is the process used to define the scope of varible by its position in the sorce code.
+
 function closureFunc(a,b){
     let c = 2
     return function(d){
