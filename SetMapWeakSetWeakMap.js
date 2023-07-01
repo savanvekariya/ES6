@@ -16,3 +16,8 @@ const map1 = new Map([["a1", "Ajay"], ["a2", "Vikas"]])
 map1.set("a2", "Priyanka") // updates new value
 map1.delete("a1")
 map1.forEach((value, key) => console.log(key, value))
+
+
+// WeakSet and WeakMap are not iterable 
+// These data structures provide a way to store data in a memory-efficient way and are useful for working with large datasets.
+// https://blog.logrocket.com/weakmap-weakset-understanding-javascript-weak-references/
